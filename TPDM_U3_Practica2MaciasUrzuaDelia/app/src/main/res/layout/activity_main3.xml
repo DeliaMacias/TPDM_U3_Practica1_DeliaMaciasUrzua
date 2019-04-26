@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Main3Activity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Venta de Bebidas"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="20dp"/>
+
+
+
+    </LinearLayout>
+
+    <EditText
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:hint="Nombre"
+        android:id="@+id/nombre"/>
+
+    <EditText
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:hint="Precio $"
+        android:id="@+id/precio"/>
+
+    <EditText
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:hint="Estatus"
+        android:id="@+id/estatus"/>
+
+    <EditText
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:hint="No. Mesa"
+        android:id="@+id/nomesa"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="insertar"
+            android:textSize="12dp"
+            android:id="@+id/insertar"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="actualizar"
+            android:textSize="12dp"
+            android:id="@+id/actualizar"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="consultar"
+            android:textSize="12dp"
+            android:id="@+id/consultar"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="eliminar"
+            android:textSize="12dp"
+            android:id="@+id/eliminar"/>
+
+
+    </LinearLayout>
+
+
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/lista"/>
+
+</LinearLayout>

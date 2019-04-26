@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "56735842347",
+    "firebase_url": "https://realtime-7d7ff.firebaseio.com",
+    "project_id": "realtime-7d7ff",
+    "storage_bucket": "realtime-7d7ff.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:56735842347:android:4b7a703f050dcee4",
+        "android_client_info": {
+          "package_name": "mx.edu.ittepic.themickyebmo.tpdm_u3_practica2maciasurzuadelia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "56735842347-s4d936q12s9cdvf4td2t2usn0q2o3lik.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNeeZ6OWTH14H3YkP_BpDE3Q6-LWe3aXE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "56735842347-s4d936q12s9cdvf4td2t2usn0q2o3lik.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
